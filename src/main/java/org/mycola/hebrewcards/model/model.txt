@@ -1,0 +1,14 @@
+ID
+Skill
+Word
+Translation
+Gender
+Form
+Number
+Type
+Niqqud
+Transliteration
+NewTranslit
+HasShva
+Process
+Notes

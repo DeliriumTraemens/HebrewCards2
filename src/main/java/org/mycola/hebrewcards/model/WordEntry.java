@@ -12,13 +12,15 @@ public class WordEntry {
     String Niqqud;// בִּזְמַן שֶׁאֲנִי
     String Transliteration;// bizman she’ani
     String NewTranslit;// bizman she’ani
-    String HasShva;// true
+    boolean HasShva;// true
     String Process;// Unchecked
     String Notes;// undef
 
 }
 /*
+*
 * ID 23
+*
 Skill Conjunctions
 Word בזמן שאני
 Translation while I
