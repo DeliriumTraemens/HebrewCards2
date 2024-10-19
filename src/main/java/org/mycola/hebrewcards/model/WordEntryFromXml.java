@@ -1,6 +1,6 @@
 package org.mycola.hebrewcards.model;
 
-public class WordEntry {
+public class WordEntryFromXml {
     int sectionID; //23
     String skill;// Conjunctions
     String word;// בזמן שאני

@@ -1,16 +1,16 @@
 package org.mycola.hebrewcards.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
+
 @Entity
-@Table(name = "skill")
-public class Skill {
+@Table(name = "number")
+public class Number {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
+    @Enumerated(EnumType.STRING)
+    private NumberEnum number;
 
     // Геттеры и сеттеры...
 }
-
