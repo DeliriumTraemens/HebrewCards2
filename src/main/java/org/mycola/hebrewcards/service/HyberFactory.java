@@ -20,6 +20,7 @@ public class HyberFactory {
     @Transactional
     public void doSomething() {
         Session session = sessionFactory.getCurrentSession();
+
         // работа с сессией...
     }
 
