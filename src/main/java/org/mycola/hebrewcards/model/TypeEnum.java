@@ -1,0 +1,5 @@
+package org.mycola.hebrewcards.model;
+
+public enum TypeEnum {
+    ADJECTIVE, ADVERB, CONJUNCTION, INTERJECTION, INTERROGATIVE, NOUN, NUMERAL, PHRASE, PREPOSITION, PRONOUN, UNDEFINED, VERB;
+}

@@ -1,7 +1,9 @@
 package org.mycola.hebrewcards.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "hebrew_word")
 public class HebrewWord {
